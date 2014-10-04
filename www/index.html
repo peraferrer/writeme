@@ -49,23 +49,23 @@
 
     </head>
     <body>
-        <div data-role="main">
-            <div data-role="header" data-position="fixed" data-theme="b">
+        <div data-role="page" data-theme="b">
+            <div data-role="header" data-position="fixed">
                 <h1>Write Me</h1>
             </div>
 
             <div role="main" class="ui-content">
 
                 <form id="recognition-form">
-                    <textarea id="recognition-input" rows="15" style="height: 80% !important;"></textarea>
-                    <button type="submit" data-corners="false" class="ui-btn ui-btn-b">Click y habla ...</button>
+                    <textarea id="recognition-input" rows="15" style="height: 80% !important; background-color: #3C3B3B;"></textarea>
+                    <button type="submit" data-corners="false">Click y habla ...</button>
                 </form>
 
                 <voice-recognition id="recognition-element" language="es-AR"></voice-recognition>
 
             </div>
 
-            <div data-role="footer" data-position="fixed" data-theme="b">
+            <div data-role="footer" data-position="fixed">
                 <h3>GlobalLogic</h3>
             </div>
         </div>
